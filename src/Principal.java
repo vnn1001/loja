@@ -12,22 +12,22 @@ public class Principal {
     Scanner scan = new Scanner(System.in);
     
     System.out.print("Nome: ");
-    carro.nome = scan.next();
+    carro.nome = scan.nextLine();
     
     System.out.print("Marca: ");
-    carro.marca = scan.next();
+    carro.marca = scan.nextLine();
     
     System.out.print("Cor: ");
-    carro.cor = scan.next();
+    carro.cor = scan.nextLine();
     
     System.out.print("Fabricacao: ");
-    carro.fabricacao = scan.next();
+    carro.fabricacao = scan.nextLine();
     
     System.out.print("Largura: ");
-    carro.largura = scan.next();
+    carro.largura = scan.nextLine();
     
     System.out.print("Peso: ");
-    carro.peso = scan.next();
+    carro.peso = scan.nextLine();
     
             
  
